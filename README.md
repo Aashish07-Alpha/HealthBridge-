@@ -1,6 +1,6 @@
 # Doctor Appointment Booking System
 
-A comprehensive full-stack web application for managing doctor appointments, built with modern web technologies to streamline the healthcare appointment process.
+A modern full-stack web application designed to streamline doctor appointment scheduling and management. It offers a user-friendly interface, secure payment integration, and role-based access for patients, doctors, and administrators. Built with React.js, Node.js, and MongoDB/MySQL, it ensures scalability, data security, and efficiency for healthcare services.
 
 ## 🚀 Live Demo
 
@@ -14,8 +14,6 @@ https://healthbridge-frontend-cjru.onrender.com/
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ✨ Features
 
@@ -108,8 +106,24 @@ cp .env.example .env
 # REACT_APP_API_URL=http://localhost:5000/api
 
 # Start the development server
-npm start
+npm run dev
 ```
+### Admin Setup
+```bash
+# Navigate to frontend directory
+cd admin
+
+# Install dependencies
+npm install
+
+# Create environment variables file
+cp .env.example .env
+
+# Configure API base URL
+# REACT_APP_API_URL=http://localhost:5000/api
+
+# Start the development server
+npm run dev
 
 ## 🎯 Usage
 
@@ -124,40 +138,6 @@ npm start
 2. **Set Schedule** - Define working hours and available time slots
 3. **Manage Appointments** - Accept, reschedule, or cancel appointments
 4. **Patient Communication** - Send messages or updates to patients
-
-## 🔌 API Endpoints
-
-### Authentication
-```
-POST /api/auth/register     - User registration
-POST /api/auth/login        - User login
-POST /api/auth/logout       - User logout
-GET  /api/auth/profile      - Get user profile
-```
-
-### Appointments
-```
-GET    /api/appointments           - Get all appointments
-POST   /api/appointments           - Create new appointment
-GET    /api/appointments/:id       - Get specific appointment
-PUT    /api/appointments/:id       - Update appointment
-DELETE /api/appointments/:id       - Cancel appointment
-```
-
-### Doctors
-```
-GET  /api/doctors              - Get all doctors
-GET  /api/doctors/:id          - Get doctor details
-POST /api/doctors              - Add new doctor (admin only)
-PUT  /api/doctors/:id          - Update doctor profile
-```
-
-### Patients
-```
-GET  /api/patients             - Get all patients (admin/doctor only)
-GET  /api/patients/:id         - Get patient details
-PUT  /api/patients/:id         - Update patient profile
-```
 
 ## 📱 Screenshots
 
@@ -212,18 +192,6 @@ cd frontend && npm run build
 cd backend && npm start
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 🐛 Known Issues
-
-- List any known bugs or limitations
-- Include workarounds if available
 
 ## 📋 Future Enhancements
 
@@ -234,28 +202,9 @@ cd backend && npm start
 - [ ] Mobile app development
 - [ ] Integration with wearable devices
 
-## 📄 License
+- **Developer Name** - [Aashish VIkas Suryawanshi]
+- **Contact** - aashish.22310410@viit.ac.in
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Team
-
-- **Developer Name** - [Your Name](https://github.com/yourusername)
-- **Contact** - your.email@example.com
-
-## 🙏 Acknowledgments
-
-- Thanks to all the open-source libraries and tools used in this project
-- Special thanks to healthcare professionals who provided valuable feedback
-- Icons provided by [Heroicons](https://heroicons.com/) / [Font Awesome](https://fontawesome.com/)
-
-## 📞 Support
-
-If you have any questions or need support, please:
-- Open an issue on GitHub
-- Contact us at support@yourdomain.com
-- Check our [documentation](link-to-docs)
-
----
 
 ⭐ If you found this project helpful, please give it a star on GitHub!
