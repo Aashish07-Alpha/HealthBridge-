@@ -12,8 +12,7 @@ https://healthbridge-frontend-cjru.onrender.com/
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
+  
 
 ## ✨ Features
 
