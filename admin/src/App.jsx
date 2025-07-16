@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Login from './pages/login'; // Ensure file name matches this path
+import Login from './pages/Login'; // Ensure file name matches this path
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Required CSS for react-toastify
 import { AdminContext } from './context/AdminContext';
