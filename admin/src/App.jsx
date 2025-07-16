@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Required CSS for react-toastify
 import { AdminContext } from './context/AdminContext';
 import Navbar from './components/Navbar';
-import Sidebar from './components/sidebar';
+import Sidebar from './components/Sidebar';
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Admin/Dashboard';
 import AllApointments from './pages/Admin/AllApointments';
